@@ -1,0 +1,394 @@
+/* IMPORTS */
+@import url(//db.onlinewebfonts.com/c/792b4087f789a3dcdbabb4c24d5028d1?family=MagistralExtraCondW08-Book);
+@font-face {
+    font-family: "MagistralExtraCondW08-Book"; 
+    src: url("//db.onlinewebfonts.com/t/792b4087f789a3dcdbabb4c24d5028d1.eot"); 
+    src: url("//db.onlinewebfonts.com/t/792b4087f789a3dcdbabb4c24d5028d1.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/792b4087f789a3dcdbabb4c24d5028d1.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/792b4087f789a3dcdbabb4c24d5028d1.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/792b4087f789a3dcdbabb4c24d5028d1.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/792b4087f789a3dcdbabb4c24d5028d1.svg#MagistralExtraCondW08-Book") format("svg"); 
+}
+
+/* CORE STYLES */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    z-index: -2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color:  #fff;
+    font-size: 1.1em;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+/* header {
+    /* margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+} */
+
+img {
+    display: block;
+    width:  100%;
+    height: auto;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding-top: .5em;
+}
+
+p {
+    margin: 0;
+    padding-top: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+/* HEADER SHOWCASE STYLING */
+
+#showcase {
+    min-height: 280px;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    /* max-height: 100%; */
+    /* max-width: 100%;
+    overflow: hidden; */
+}
+
+#showcase h1 {
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+#showcase h1 a {
+    font-family: 'MagistralExtraCondW08-Book', serif;
+    position: absolute;
+    top: 120px;
+    transform: translateY(-50%) translateX(-50%);
+    margin: 0em;
+    padding: .5em 50% .5em 50%;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    /* text-shadow: 0 5px 10px rgba(0,0,0,1); */
+    mix-blend-mode: soft-light;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,1); */
+    background: rgba(108, 24, 139, 0.8);
+}
+
+#showcase .bg-image {
+    position: absolute;
+    background: #333 url("./images/imp_promo00009.jpeg");
+    background-position: center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    opacity: 0.5;;
+}
+
+/* #showcase .content-wrap,
+#section-a .content-wrap{
+    padding: 0 1.5em;
+} */
+
+/* nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+} */
+.spacer{
+    height: 258px;
+}
+
+.navbar {
+    position: sticky;
+    top:0;
+}
+
+.navbar ul {
+    /* position: absolute; */
+    /* position: absolute; */
+    width: 100%;
+    /* top: 258px; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: rgba(106, 59, 151, 0.498);
+    /* display: block; */
+    /* align-items: center; */
+    /* position: absolute; */
+    /* top: 250px;
+    list-style: none;
+    border: 2px red; */
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    /* margin: 0 .5px 0 .5px;
+    width: 96px;
+    height: 40px;
+    padding: 0px; */
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    font-size: 0.8em;
+    color: white;
+    background: transparent;
+    padding: 4px 2px 4px 2px;
+    width: 86px;
+    height: auto;
+    transition: 1s;
+}
+
+.navbar ul li a:hover {
+    background: #eaeaea;
+    color: black;
+}
+
+
+/* SECTION A */
+
+#section-a {
+    background: #eaeaea;
+    color: #333;
+}
+
+#section-a h2 {
+    padding-top: .5em;
+}
+
+#section-a h4 {
+    padding-top: 0 em;
+    color: rgb(79, 79, 79);
+}
+
+#section-a .content-wrap {
+    padding: 1em;
+}
+
+.content-text {
+    padding-bottom: 0.5em;
+}
+
+#section-a p {
+    padding-top: 1em;
+}
+
+/* SECTION B */
+
+#section-b {
+    padding: 0.5em;
+    background-color: rgb(79, 79, 79);
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li {
+    background: #fff;
+    color: #333;
+    margin: 1em;
+}
+
+.card-content {
+    padding: 0.5em 1em 1em 1em;
+
+}
+
+.card{
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+
+/* SECTION C */
+
+#section-c {
+    background: rgb(108, 24, 139);
+    color: #fff;
+    padding: 1em;
+}
+
+#section-c h2 {
+    padding-top: 0em;
+}
+
+
+/* FOOTER */
+
+#main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* MEDIA QUERY */
+
+/* @media(min-width: 700px) {
+
+    ::-webkit-scrollbar {
+        display: initial;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+
+    }
+
+    #showcase {
+        min-height: 500px;
+
+    }
+
+    #showcase h1 a {
+        font-size: 4.2em;
+        top: 19.5%;
+    }
+
+    #showcase .bg-image {
+        padding-top: 500px;
+    }
+
+    #section-a h2 {
+        margin: 0;
+    }
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
+        padding-bottom: 1em;
+        padding-top: 0;
+    }
+
+    #section-a .content-text{
+        padding-top: 1em;
+    }
+    .content-wrap{
+        grid-column: 2/4;
+    }
+
+    #section-b {
+        grid-column: 1/5;
+    }
+
+    #section-b ul{
+        grid-column: 2/4;
+    }
+
+    #section-c {
+        grid-column: 1/5;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li {
+        width: 31%;
+    }
+
+
+
+
+
+} */
+
+
+/* * {
+    list-style: none;
+    background-color: #666666;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: rgb(91, 91, 91);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+section {
+    background-color: white;
+    padding: 1em;
+    margin: 2px;
+
+
+
+        font-family: 'Libre Baskerville', serif;
+    color: rgba(0, 0, 0, 0.5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: #ff4a4a; 
+    font-size: 75px;
+    text-transform: uppercase;
+    line-height: 74px; 
+    font-weight: 700; 
+    margin: 0px; 
+    float: left; 
+    padding: 10px; 
+    margin: 0 5px 24px; 
+    font-family: 'Libre Baskerville', serif;
+    mix-blend-mode: overlay;
+} */
