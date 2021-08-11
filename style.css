@@ -352,15 +352,15 @@ audio {
     
     .navbar ul li {
         margin: 0 10px 0 10px;
-        width: 240px;
+        width: 140px;
         /* height: 40px; */
         padding: 0px;
     }
 
 
     .navbar ul li a {
-        font-size: 1.5em;
-        width: 240px;
+        font-size: 1.2em;
+        width: 140px;
     }
 
     /* .navbar ul li a:hover {
