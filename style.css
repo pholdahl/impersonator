@@ -169,7 +169,7 @@ nav {
 .navbar ul li {
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     height: auto;
     /* color: white; */
     /* margin: 0 .5px 0 .5px;
@@ -191,7 +191,7 @@ nav {
     text-align: center;
     margin: 0px 0px 0px 0px;
     align-items: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: inherit;
     background: transparent;
     padding: 4px 2px 4px 2px;
@@ -352,15 +352,15 @@ audio {
     
     .navbar ul li {
         margin: 0 10px 0 10px;
-        width: 140px;
+        width: 240px;
         /* height: 40px; */
         padding: 0px;
     }
 
 
     .navbar ul li a {
-        font-size: 1.2em;
-        width: 140px;
+        font-size: 1.5em;
+        width: 240px;
     }
 
     /* .navbar ul li a:hover {
