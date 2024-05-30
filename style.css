@@ -308,9 +308,17 @@ audio {
   background-color: rgb(79, 79, 79);
 }
 
+
 #sectionC > div > p {
   padding-bottom: 1em;
 }
+
+#sectionC > .content-wrap {
+  color: black;
+}
+
+
+/* SECTION D */
 
 #sectionD > div > p {
   font-size: 1.2em;
