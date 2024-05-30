@@ -1,7 +1,7 @@
 ## Impersonator
 
 ![Project Logo](images/showcase/impersonator_0001.png)
-[To website](https://pholdahl.github.io/website_impersonator/index.html)
+[To website](https://pholdahl.github.io/impersonator/)
 
 ## Table of Contents
 
